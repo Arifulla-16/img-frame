@@ -17,7 +17,7 @@ image.onchange = evt => {
     $("a").css("display","none");
     $("#ovimg").css("display","block");
     $("#ovimg").css("background-image",`url(${uurl})`);
-    $("#ovimg").attr("src","/asset/asset/output-onlinepngtools (2).png");
+    $("#ovimg").attr("src","/asset/asset/1.png");
     $("#ovimg").css("width","200px");
   });
 
@@ -25,7 +25,7 @@ image.onchange = evt => {
     $("a").css("display","none");
     $("#ovimg").css("display","block");
     $("#ovimg").css("background-image",`url(${uurl})`);
-    $("#ovimg").attr("src","/asset/asset/output-onlinepngtools (1).png");
+    $("#ovimg").attr("src","/asset/asset/2.png");
     $("#ovimg").css("width","200px");
   });
 
@@ -33,7 +33,7 @@ image.onchange = evt => {
     $("a").css("display","none");
     $("#ovimg").css("display","block");
     $("#ovimg").css("background-image",`url(${uurl})`);
-    $("#ovimg").attr("src","/asset/asset/output-onlinepngtools (3).png");
+    $("#ovimg").attr("src","/asset/asset/3.png");
     $("#ovimg").css("width","210px");
   });
 
@@ -41,6 +41,6 @@ image.onchange = evt => {
     $("a").css("display","none");
     $("#ovimg").css("display","block");
     $("#ovimg").css("background-image",`url(${uurl})`);
-    $("#ovimg").attr("src","/asset/asset/output-onlinepngtools.png");
+    $("#ovimg").attr("src","/asset/asset/4.png");
     $("#ovimg").css("width","200px");
   });
