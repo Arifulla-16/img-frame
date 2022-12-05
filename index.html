@@ -11,11 +11,16 @@
     <div class="cont">
         <input type="button" id="falsebut" value="Upload">
         <input type="file" name="image" id="image" accept="image/*" style="display:none;">
-        <img id="img" src="" style="display: none;">
+        <div class="overlay">
+            <img id="img" src="" style="display: none;">
+            <img src="" id="ovimg" alt="" style="display: none;">
+        </div>
+        <a style="display: none;">Please select a below border to display image</a>
         <div class="borders">
             <input type="button" id="circle" value="Circle">
-            <input type="button" id="square" value="Quarter">
-            <input type="button" id="rectangle" value="Fancy">
+            <input type="button" id="square" value="Square">
+            <input type="button" id="rectangle" value="Rectangle">
+            <input type="button" id="heart"  value="Heart">
         </div>
     </div>
 </body>

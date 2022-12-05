@@ -4,8 +4,12 @@
     margin:0;
     box-sizing: border-box;
     font-size: 1.2rem;
-    background-color: azure;
-    color:white
+    background-color: white;
+    color:white;
+}
+
+a{
+    color: black;
 }
 
 .cont{
@@ -26,7 +30,17 @@
 }
 
 #img{
-    border-style: solid;
+    /* border-style: solid; */
+    position: absolute;
     width: 200px;
     height:200px;
+    z-index: 1;
+}
+
+#ovimg{
+    background-repeat: no-repeat;
+    background-size: 200px,200px;
+    width: 200px;
+    height:200px;
+    z-index: 1;
 }

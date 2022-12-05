@@ -2,22 +2,45 @@ $("#falsebut").click((e)=>{
     $("#image").click();
 });
 
+var uurl;
+
 image.onchange = evt => {
     const [file] = image.files
     if (file) {
       img.src = URL.createObjectURL(file);
-      $("#img").css("display","block")
+      uurl=URL.createObjectURL(file);
+      $("a").css("display","block");
     }
   }
-
+  
   $("#circle").click((e)=>{
-    $("#img").css("border-radius","50%");
+    $("a").css("display","none");
+    $("#ovimg").css("display","block");
+    $("#ovimg").css("background-image",`url(${uurl})`);
+    $("#ovimg").attr("src","/asset/asset/output-onlinepngtools (2).png");
+    $("#ovimg").css("width","200px");
   });
 
   $("#square").click((e)=>{ 
-    $("#img").css("border-radius","0% 100% 100% 0% / 100% 0% 100% 0% ");
+    $("a").css("display","none");
+    $("#ovimg").css("display","block");
+    $("#ovimg").css("background-image",`url(${uurl})`);
+    $("#ovimg").attr("src","/asset/asset/output-onlinepngtools (1).png");
+    $("#ovimg").css("width","200px");
   });
 
   $("#rectangle").click((e)=>{ 
-    $("#img").css("border-radius","  68% 94% 40% 84% / 61% 66% 66% 100% ");
+    $("a").css("display","none");
+    $("#ovimg").css("display","block");
+    $("#ovimg").css("background-image",`url(${uurl})`);
+    $("#ovimg").attr("src","/asset/asset/output-onlinepngtools (3).png");
+    $("#ovimg").css("width","210px");
+  });
+
+  $("#heart").click((e)=>{ 
+    $("a").css("display","none");
+    $("#ovimg").css("display","block");
+    $("#ovimg").css("background-image",`url(${uurl})`);
+    $("#ovimg").attr("src","/asset/asset/output-onlinepngtools.png");
+    $("#ovimg").css("width","200px");
   });
